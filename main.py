@@ -69,6 +69,8 @@ class Poker:
             else:
                 seq_int = 0
                 gap = False
+            if sequential >= 4:
+                Break
 
         sequential = seq_int == 4
 
