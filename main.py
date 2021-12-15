@@ -70,7 +70,7 @@ class Poker:
                 seq_int = 0
                 gap = False
             if sequential >= 4:
-                Break
+                break
 
         sequential = seq_int == 4
 
